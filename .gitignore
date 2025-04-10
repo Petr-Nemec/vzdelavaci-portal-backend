@@ -1,0 +1,67 @@
+# Závislosti
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Proměnné prostředí
+.env
+.env.*
+!.env.example
+
+# Logy
+logs
+*.log
+
+# Běhové soubory
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Adresář pokrytí
+coverage/
+.nyc_output
+
+# Build výstupy
+dist/
+build/
+out/
+
+# Dočasné soubory
+tmp/
+temp/
+
+# Firebase konfigurace
+src/config/firebase-service-account.json
+
+# Kubernetes
+.kubectl/
+
+# MongoDB lokální data
+data/
+
+# Soubory OS
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE a editory
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.history
+
+# Debug soubory
+.node_repl_history
+.npm-debug.log*
